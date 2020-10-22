@@ -1,0 +1,41 @@
+.header-container {
+  width: 100%;
+  height: 6em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+.header-container img {
+  height: 55%;
+}
+
+.add-button {
+  width: 14em;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f56b2a;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+}
+
+.add-button p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.plus-square {
+  height: 50%;
+  color: white;
+}
+
+.ellipse {
+  width: 100%;
+  height: 6em;
+  border-radius: 0 0 180% 180%;
+  background: #f56b2a;
+}
