@@ -46,3 +46,8 @@ p {
   margin: 0;
   padding-bottom: 10%;
 }
+
+.Link {
+  text-decoration: none;
+  color: black;
+}

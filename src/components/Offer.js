@@ -10,7 +10,7 @@ const Offer = ({offer}) => {
     const date = new Date(offer.created).toLocaleDateString()
     let id=offer._id;
     return (
-        <Link to={`/offer/${id}`}>
+        <Link to={`/offer/${id}`} className="Link">
         <section className="offer-container">
             <div className="image-container">
             <img src={offer.picture.secure_url} alt="objet ou service"/>
